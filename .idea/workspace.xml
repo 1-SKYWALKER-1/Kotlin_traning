@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fd6be1-3f45-4cdf-80c3-df0c1c7ea5a2" name="Changes" comment="Add new Repository&#10;-- ProductRepository&#10;-- WorkerRepository">
-      <change beforePath="$PROJECT_DIR$/Products_cards.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Products_cards.txt" afterDir="false" />
-    </list>
+    <list default="true" id="29fd6be1-3f45-4cdf-80c3-df0c1c7ea5a2" name="Changes" comment="Add new Repository&#10;-- ProductRepository&#10;-- WorkerRepository" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,12 +20,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "1-SKYWALKER-1"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "git@github.com:1-SKYWALKER-1/Kotlin_traning.git",
     "accountId": "49f06788-5207-4da4-965f-87c55df555cb"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -79,7 +86,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737566190218</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add new Repository&#10;-- ProductRepository&#10;-- WorkerRepository">
+      <option name="closed" value="true" />
+      <created>1737571086961</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737571086961</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
