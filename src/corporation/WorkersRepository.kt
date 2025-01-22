@@ -7,10 +7,12 @@ class WorkersRepository {
 
     private val fileWorkers = File("Workers.txt")
 
-    private fun saveWorkerToFile(worker: Worker){
+     private fun saveWorkerToFile(worker: Worker){
         fileWorkers.appendText("${worker.id}%${worker.name}%${worker.age}%${worker.getSalary()}%${worker.position}\n")
     }
-
+    fun registerNewEmployee(worker: Worker){
+        saveWorkerToFile(worker)
+    }
     fun loadAllEmployee(): MutableList<Worker>{
         val employees = mutableListOf<Worker>()
         if(!fileWorkers.exists()) fileWorkers.createNewFile()
@@ -49,5 +51,15 @@ class WorkersRepository {
             }
         }
     }
+     fun changeSalary(id: Int, salary: Int){
 
+        val employees = loadAllEmployee()
+        for (employee in employees){
+            fileWorkers.writeText("")
+            if(employee.id == id){
+                employee.setSalary(salary)
+            }
+            saveWorkerToFile(employee)
+        }
+    }
 }
